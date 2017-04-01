@@ -1,5 +1,5 @@
 all:
-	g++ *.cpp -o run
+	g++ *.cpp -O2 -Wpedantic -o run
 
 clean:
 	rm -rf run
